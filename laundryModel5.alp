@@ -1101,7 +1101,7 @@
 									</GenericParameterSubstitute>
 									<Parameters>
 										<Parameter>
-											<Name><![CDATA[isPickup]]></Name>
+											<Name><![CDATA[customerType]]></Name>
 										</Parameter>
 									</Parameters>
 									<ReplicationFlag>true</ReplicationFlag>
@@ -1555,7 +1555,7 @@
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[triangular(30, 45, 60)]]></Code>
+								<Code><![CDATA[triangular(30, 45, 60)	]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 							</Value>
 						</Parameter>
